@@ -1,0 +1,1 @@
+Ξ-based routing uses tag priority + contextual entropy

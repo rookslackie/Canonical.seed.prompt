@@ -1,0 +1,9 @@
+{
+  "package": "xi_field_relay",
+  "files": [
+    "field_linker.py",
+    "relay_binder.py",
+    "manifest.json"
+  ],
+  "intent": "Establish relay and field linkage for symbolic capsule routing"
+}

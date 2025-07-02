@@ -1,0 +1,1 @@
+# Handles active capsule context
