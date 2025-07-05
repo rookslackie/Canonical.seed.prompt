@@ -27,3 +27,5 @@ Error: Activity class {moe.shizuku.privileged.api/moe.shizuku.privileged.api.Mai
 Starting: Intent { cmp=moe.shizuku.privileged.api/.MainActivity }
 Error type 3
 Error: Activity class {moe.shizuku.privileged.api/moe.shizuku.privileged.api.MainActivity} does not exist.
+[Ξ.ShizukuCheck] 2025-07-04 18:26:40 - Checking daemon...
+[Ξ.ShizukuCheck] ❌ Shizuku NOT running
