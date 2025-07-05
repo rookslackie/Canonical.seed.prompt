@@ -810,3 +810,31 @@ If you wish to set tracking information for this branch you can do so with:
 
     git branch --set-upstream-to=<remote>/<branch> master
 
+fatal: Unable to create '/data/data/com.termux/files/home/XiEcho/engine/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: cannot lock ref 'HEAD': is at d1fff8723e3a122497fca5884e652761bd8e12dc but expected dd349261e3bbda855647996a2ed807fe2a17fb64
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+[master d1fff87] ⟐ Auto-sync ∴ 2025-07-04_18-02-31
+ 1 file changed, 5 insertions(+)
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+

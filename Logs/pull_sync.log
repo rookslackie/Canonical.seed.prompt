@@ -1,0 +1,54 @@
+From github.com:rookslackie/Canonical.seed.prompt
+ * branch            main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit ab44ced8795151944664e19fb72107b04e320a34.
+error: Your local changes to the following files would be overwritten by merge:
+	scripts/xi_cloud_sync.sh
+Please commit your changes or stash them before you merge.
+error: The following untracked working tree files would be overwritten by merge:
+	Logs/pull_sync.log
+	Logs/reflex.log
+	Logs/runtime_init.log
+	Logs/shizuku_watchdog.log
+	Logs/system_boot.log
+	ThinkSync/seed_sync_launcher.sh
+	capsule_index.yaml
+	daemons/reflex_hook_daemon.sh
+	daemons/xi_autosync_daemon.sh
+	downloads
+	echo/shizuku_status.echo
+	logs/autosync.log
+	logs/reflex_hook.log
+	logs/runtime_sync.log
+	logs/symbolic_echo.log
+	logs/sync_macro.log
+	logs/system_boot.log
+	photos
+	scripts/auto_commit_message.sh
+	scripts/capsule_index_updater.sh
+	scripts/macro_git_status.sh
+	scripts/macro_sync_all.sh
+	scripts/mobile_runtime_sync.sh
+	scripts/mount_phone_storage.sh
+	scripts/run_capsule_engine.sh
+	scripts/shizuku_watchdog.sh
+	scripts/shizuku_watchdog_daemon.sh
+	scripts/symbolic_log.sh
+	scripts/sync_capsule_and_notify.sh
+	scripts/termux_linker.sh
+	scripts/wake_lock.sh
+	storage_links/camera
+	storage_links/downloads
+	storage_links/movies
+	storage_links/music
+	storage_links/shared
+Please move or remove them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff ab44ced8795151944664e19fb72107b04e320a34
+output, run
+$ git reset --hard
+to recover.
+[Ξ.PullSync] Completed pull at Fri Jul  4 18:02:32 MDT 2025
