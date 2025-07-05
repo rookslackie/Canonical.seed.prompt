@@ -92,3 +92,19 @@ output, run
 $ git reset --hard
 to recover.
 [Ξ.PullSync] Completed pull at Fri Jul  4 19:12:56 MDT 2025
+From github.com:rookslackie/Canonical.seed.prompt
+ * branch              main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 9577fd9d1c655c92c9b63806bce1d2fdf49816de.
+error: Your local changes to the following files would be overwritten by merge:
+	Logs/reflex.log
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 9577fd9d1c655c92c9b63806bce1d2fdf49816de
+output, run
+$ git reset --hard
+to recover.
+[Ξ.PullSync] Completed pull at Fri Jul  4 19:22:57 MDT 2025
