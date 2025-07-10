@@ -1,0 +1,5 @@
+Ξ.Capsule: Scaffold
+glyph: ⟐
+Created: 2025-07-09 20:46:52
+---
+Test scaffold from glyph router
